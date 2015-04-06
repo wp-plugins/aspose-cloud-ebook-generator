@@ -3,7 +3,7 @@
 Plugin Name: Aspose Cloud eBook Generator
 Plugin URI:
 Description: Aspose Cloud eBook Generator is a plugin for exporting content from Posts/Pages and then downloading it in desired format.
-Version: 1.0
+Version: 2.0
 Author: Fahad Adeel
 Author URI: http://cloud.aspose.com/
 

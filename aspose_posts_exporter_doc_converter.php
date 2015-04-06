@@ -90,8 +90,21 @@ if($result['Status'] == 'OK') {
     }
 
 
-    $download_path = plugin_dir_url(__FILE__) . 'aspose_posts_exporter_download.php';
+	$file = $epub_file_name;
 
-    $message = '<a href="'.$download_path.'?file='.$epub_file_name.'"> Click Here </a> to download the doc file.';
-    echo "<div class=\"updated\"><p>{$message}</p></div>";
+	$file_arr = explode('/',$file);
+
+	$file_name = $file_arr[count($file_arr) - 1];
+
+	header ("Content-type: octet/stream");
+
+	header ("Content-disposition: attachment; filename=".$file_name.";");
+
+	header("Content-Length: ".filesize($file));
+
+	readfile($file);
+
+	exit;
+
+    
 }

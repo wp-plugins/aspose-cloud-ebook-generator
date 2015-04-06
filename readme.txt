@@ -4,7 +4,7 @@ Contributor's website: http://cloud.aspose.com/
 Tags: aspose cloud ebook generator, wordpress , ebook genrator, posts to ebook, wp ebook , wordpress ebook generator , wordpress posts to ebook , pages to ebook , posts to epub, epub, html, ebook, ipad, iphone, word, export, archive, zip, crouzet, publish, save, backup
 Requires at least: 2.8
 Tested up to: 3.8.1
-Stable tag: 1.0
+Stable tag: 2.0
 License: GPLv2 or later
 
 Aspose Cloud eBook Generator Plugin for WordPress allows developers to create eBooks of their blog posts, articles, pages without requiring Microsoft Office. This module demonstrates very powerful conversion & other features provided by Aspose.Words. It asks for the posts for which eBook is to be generated and as soon as the posts are selected, it generate the eBook in different formats like epub.
@@ -44,3 +44,6 @@ Login with your aspose account by going to the link https://cloud.aspose.com/Sig
 == Changelog ==
 = 1.0 =
 * This is the first version
+
+= 2.0 =
+* Once ebook is generated, it will immediately download the file. 
