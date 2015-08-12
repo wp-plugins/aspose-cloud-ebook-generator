@@ -3,7 +3,7 @@ Contributors: fahadadeel@gmail.com
 Contributor's website: http://cloud.aspose.com/
 Tags: aspose cloud ebook generator, wordpress , ebook genrator, posts to ebook, wp ebook , wordpress ebook generator , wordpress posts to ebook , pages to ebook , posts to epub, epub, html, ebook, ipad, iphone, word, export, archive, zip, crouzet, publish, save, backup
 Requires at least: 2.8
-Tested up to: 3.8.1
+Tested up to: 4.3
 Stable tag: 2.0
 License: GPLv2 or later
 
